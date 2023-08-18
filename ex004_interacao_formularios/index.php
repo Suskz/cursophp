@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interação com formulários</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/cursophp/css/style.css">
 </head>
 <body>
-    <header>
+    <main>
         <h1>Apresente-se para nós</h1>
-    </header>
-    <section>
         <form action="cad.php" method="get">
             <label for="name">Nome</label>
             <input type="text" name="name" id="idname">
@@ -18,6 +16,6 @@
             <input type="text" name="sname" id="idsname">
             <input type="submit" value="Enviar">
         </form>
-    </section>
+</main>
 </body>
 </html>
