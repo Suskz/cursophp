@@ -26,8 +26,8 @@
     <section>
         <h2>Resultado</h2>
         <?php 
-            $test = $year - $age;
-            echo "Quem nasceu em $age vai ter <strong>$test anos</strong> em $year!"
+            $actage = $year - $age;
+            echo "Quem nasceu em $age vai ter <strong>$actage anos</strong> em $year!"
         ?>
     </section>
 </body>
