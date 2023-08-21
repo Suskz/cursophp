@@ -14,7 +14,7 @@
             $age = $_GET["age"] ?? 0;
             $year = $_GET["year"] ?? 0;
         ?>
-        <form action="" method="get">
+        <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
             <label for="age">Em que ano você nasceu?</label>
             <input type="number" name="age" id="idage">
             <label for="year">Quer saber sua idade em que ano?(Atualmente estamos em <strong><?= $actyear?></strong>)</label>
