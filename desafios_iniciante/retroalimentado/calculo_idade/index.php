@@ -18,7 +18,7 @@
             <label for="age">Em que ano você nasceu?</label>
             <input type="number" name="age" id="idage">
             <label for="year">Quer saber sua idade em que ano?(Atualmente estamos em <strong><?= $actyear?></strong>)</label>
-            <input type="number" name="year" id="idyear" min="<?= $age + 1?>" value="<?= $year?>" >
+            <input type="number" name="year" id="idyear" value="<?= $year?>" >
             <input type="submit" value="Calcular idade">
         </form>
     </main>
